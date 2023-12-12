@@ -1,11 +1,14 @@
 import React from "react";
+import Entry from "./entry";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
 const Home = () => {
-  return <div className="text-center"></div>;
+  return (
+    <div className="text-center bg-info">
+      <Entry />
+
+    </div>
+  );
 };
 
 export default Home;
